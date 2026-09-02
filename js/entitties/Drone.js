@@ -1,5 +1,6 @@
 export default class Drone {
-    constructor(/*drone fields...*/) {
-        // asign values here
+    constructor(x, y) {
+        this.x = x;
+        this.y = y;
     }
 }
